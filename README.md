@@ -25,7 +25,9 @@ You can also instantly build and install with:
 $ go install -ldflags "-X main.SlackURL="<your-Slack-Webhook-url>""
 ```
 <br>
+
 **Build without default URL (user input necessary on each startup):**<br>
+
 Build the application:
 ```
 $ go build

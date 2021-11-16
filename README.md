@@ -1,4 +1,4 @@
-# slack-FEG
+# slack-FEG (Slack-FreeEpicGames)
 This is a simple Go application that gets the information about latest free games on Epic Games Store and then sends you a message about them via Slack.
 It frequently (once per hour) gets information from Epic Games Store (response from https://store-site-backend-static-ipv4.ak.epicgames.com/freeGamesPromotions?locale=en-US&country=PL&allowCountries=PL), checks if anything new appeared and sends the message to Slack (using Webhook).<br><br>
 
